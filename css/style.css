@@ -68,6 +68,8 @@ body{
 }
 .bases{
     margin: 58px 249px;
+    width: 941px;
+    height: 344px;
 }
 .ding{
     font-family: var(--font-family);
