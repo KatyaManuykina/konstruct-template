@@ -66,4 +66,51 @@ body{
 .log{
     margin-left: 251px;
 }
-
+.bases{
+    margin: 58px 249px;
+}
+.ding{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.13em;
+    text-align: center;
+    color: #48555b;
+}
+.feature{
+    display: flex;
+    justify-content: center
+}
+.heso-title{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    color: #48555b;
+}
+.heso-desc{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 177%;
+    letter-spacing: 0.01em;
+    color: #48555b;
+}
+.heso-row{
+    margin-top: 84px;
+    gap: 34px;
+    width: 941px;
+    height: 344px;
+    display: flex;
+    align-items: center;
+}
+.heso-left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.heso-image{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
