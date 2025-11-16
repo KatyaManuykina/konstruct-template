@@ -1,5 +1,8 @@
-
-.container{
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+.container-main{
     width: 1438px;
     height: 769px;
     background-image: url(bg.png);
@@ -11,8 +14,6 @@
     justify-content: center
     
 }
-    
-
 .hero-title{
     margin: 0px;
     padding-top: 306px;
@@ -42,3 +43,27 @@
     text-align: center;
     color: #fff;
 }
+.header-row{
+    display: flex;
+    align-items: center;
+    gap: 450px;
+}
+.menu{
+    padding: 0;
+    margin: 24px;
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+.menu-link{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.09em;
+    text-align: center;
+    color: #48555b;
+}
+.log{
+    margin-left: 251px;
+}
+
