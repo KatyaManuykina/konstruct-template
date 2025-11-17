@@ -116,3 +116,75 @@ body{
     justify-content: flex-end;
     gap: 10px;
 }
+.boks{
+    display: flex;
+    justify-content: center
+}
+.til{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.13em;
+    color: #48555b;
+}
+.ters{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 173%;
+    letter-spacing: 0.02em;
+    color: #48555b;
+    margin-left: 154px;
+}
+.advant-btns{
+    width: 150px;
+    height: 40px;
+    background-color: #00a4e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-blue{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    color: #fff;
+  
+}
+.container-advant{
+    padding: 118px 250px;
+    width: 940px;
+    height: 446px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.advant-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -16px;
+
+}
+.advant-item-container{
+    width: 33%;
+    padding: 16px;
+    box-sizing: border-box;
+    
+}
+.advant-item-title{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #48555b;
+}
+.advant-item-desc{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 177%;
+    letter-spacing: 0.01em;
+    color: #48555b;
+}
